@@ -1,0 +1,11 @@
+server:
+  port: 8845
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/Security
+    username: vadim
+    password: 19111993
+  jpa:
+    hibernate:
+      ddl-auto: update
